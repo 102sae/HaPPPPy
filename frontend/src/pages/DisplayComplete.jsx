@@ -74,6 +74,7 @@ export const DisplayComplete = () => {
   
     return (
       <Root>
+        <Header></Header>
         <SuccessRoot>
             <SuccessContainer><Checked></Checked><SuccessText>세부 상담 신청 완료!</SuccessText></SuccessContainer>
             <SuccessButton onClick={handleMainClick}>처음 화면으로</SuccessButton>

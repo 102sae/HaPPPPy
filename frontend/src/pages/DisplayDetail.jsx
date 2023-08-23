@@ -202,7 +202,7 @@ export const DisplayDetail = () => {
         <DisplayDetailTextBox2>
           <DisplayDetailText>물품명: {itemname}</DisplayDetailText>
           <DisplayDetailText>견적 요청 마감일: {closingDate}</DisplayDetailText>
-          <DisplayDetailText>예상 운임: {compprice}</DisplayDetailText>
+          <DisplayDetailText>예상 운임: {compprice}원</DisplayDetailText>
           <DisplayDetailText>소요 시간: {Data.time}</DisplayDetailText>
         </DisplayDetailTextBox2>
         <DisplayDetailTextWrap>

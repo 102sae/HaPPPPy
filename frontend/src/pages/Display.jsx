@@ -253,7 +253,7 @@ export const Display = () => {
         <DisplayTextBox>
           <DisplayText>물품명 {displayData.item_name}<br/></DisplayText>
           <DisplayText>견적요청마감일 {closingDate}<br/></DisplayText>
-          <DisplayText>견적평균가 {displayData.estimatePrice}<br/></DisplayText>
+          <DisplayText>견적평균가 {displayData.estimatePrice}원<br/></DisplayText>
         </DisplayTextBox>
         <DisplayTextMain>견적서</DisplayTextMain>
         <DisplayListWrap>
@@ -271,7 +271,7 @@ export const Display = () => {
                   <DisplayListImg></DisplayListImg>
                   <DisplayTextBox2>
                     <DisplayText3>{item.name}</DisplayText3>
-                    <DisplayText2>{text2Value}</DisplayText2>
+                    <DisplayText2>{text2Value}원</DisplayText2>
                   </DisplayTextBox2>
                   <DisplayListButton onClick={() => handleClick(getCompanyNameByIndex(index), text2Value)}>
                     세부 정보
